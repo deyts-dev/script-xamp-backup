@@ -26,7 +26,7 @@ C:\xampp\mysql
 
 ## 📋 ¿Qué hace el script? (paso a paso)
 
-1. **Renombra la carpeta `data` actual** agregando un timestamp, por ejemplo:  data_bk_20250814_9%e%f
+1. **Renombra la carpeta `data` actual** agregando un timestamp, por ejemplo:  data_bk_082025
 
 2. **Copia la carpeta `backup` de MySQL** y la renombra como una nueva `data`.
 
