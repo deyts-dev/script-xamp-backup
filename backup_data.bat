@@ -6,9 +6,9 @@ SET XAMPP_PATH=C:\xampp
 SET DATA_PATH=%XAMPP_PATH%\mysql\data
 SET BACKUP_PATH=%XAMPP_PATH%\mysql\backup
 
-REM Crear un timestamp para backup
-for /f "tokens=1-4 delims=/: " %%a in ("%date% %time%") do (
-    set TIMESTAMP=%%c%%b%%a_%%d%%e%%f
+REM Crear un timestamp solo con fecha (YYYYMMDD)
+for /f "tokens=2-4 delims=/ " %%a in ('date /t') do (
+    set TIMESTAMP=%%c%%a%%b
 )
 
 REM 1. Renombrar la carpeta data actual
