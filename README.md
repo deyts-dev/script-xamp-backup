@@ -2,6 +2,9 @@
 
 Este repositorio contiene un script en **batch (.bat)** para restaurar la carpeta `data` de **MySQL en XAMPP** cuando aparece el error:
 
+<p align="center">
+  <img src="assets/xampp-error.png" alt="Error MySQL en XAMPP" width="500"/>
+</p>
 
 El script automatiza el proceso de recuperación usando la carpeta `backup` que viene por defecto en XAMPP, y copia las bases de datos de proyectos para que no se pierdan.
 
